@@ -1,0 +1,36 @@
+.skills {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+.homeNavBar {
+    background-color: #282B32 ;
+    display: grid;
+    grid-template-rows: repeat(5, 55px);
+    justify-content: center;
+    align-content: center;
+}
+.homeNavBar svg {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.homeNavBar svg:hover {
+    transform: translateX(5px);
+    color: darkorange;
+}
+.skillsContent {
+    background-color:#2E3138;
+    display: grid;
+    grid-template-rows: 20px, 20px, 1fr;
+}
+.skillsContentTechnologies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.technologyTile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid grey;
+    border-radius: 7px;
+}

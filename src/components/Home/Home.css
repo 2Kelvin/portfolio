@@ -1,0 +1,64 @@
+.home {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+.homeNavBar {
+    background-color: #282B32 ;
+    display: grid;
+    grid-template-rows: repeat(5, 55px);
+    justify-content: center;
+    align-content: center;
+}
+.homeNavBar svg {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.homeNavBar svg:hover {
+    transform: translateX(5px);
+    color: darkorange;
+}
+.homeContent {
+    background-color:#2E3138;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+}
+.homeContent div {
+    padding: 0 13rem;
+}
+.homeContentSmall {
+    font-family: 'Space Mono', monospace;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.homeContentBig{
+    font-size: 4rem;
+}
+.homeContent div h1 {
+    margin: 0;
+}
+.kelvin {
+    color: darkorange;
+    font-family: 'Space Mono', monospace;
+}
+.homeContent div svg {
+    color: darkorange;
+    padding: 10px;
+    border: solid 1px darkorange;
+    border-radius: 5px;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+.homeContent div svg:hover {
+    transform: translateY(-5px);
+}
+.hoverLinkedin:hover {
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.hoverGithub:hover {
+    color: black;
+    border: 1px solid black;
+}
