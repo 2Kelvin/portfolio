@@ -21,16 +21,23 @@
 .skillsContent {
     background-color:#2E3138;
     display: grid;
-    grid-template-rows: 20px, 20px, 1fr;
+    grid-template-rows: 100px, 1fr;
 }
 .skillsContentTechnologies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    row-gap: 3rem;
+    background-color: red;
+}
+.skillsContentTitle {
+    background-color: forestgreen;
 }
 .technologyTile {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border: 1px solid grey;
     border-radius: 7px;
+    place-content: center;
+    width: 21rem;
+    font-family: 'Space Mono', monospace;
 }
