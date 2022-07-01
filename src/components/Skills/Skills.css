@@ -21,16 +21,22 @@
 .skillsContent {
     background-color:#2E3138;
     display: grid;
-    grid-template-rows: 100px, 1fr;
-}
-.skillsContentTechnologies {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 3rem;
-    background-color: red;
+    height: 100%;
+    grid-template-rows: 220px 1fr;
+    padding: 1rem 20px;
 }
 .skillsContentTitle {
     background-color: forestgreen;
+    align-self: flex-end;
+}
+.skillsContentTechnologies {
+    align-self: start;
+    padding: 0;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background-color: red;
 }
 .technologyTile {
     display: grid;
@@ -38,6 +44,5 @@
     border: 1px solid grey;
     border-radius: 7px;
     place-content: center;
-    width: 21rem;
     font-family: 'Space Mono', monospace;
 }
