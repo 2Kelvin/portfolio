@@ -1,3 +1,3 @@
 # official-portfolio
 
-My portfolio as of 2024
+My software engineering portfolio
