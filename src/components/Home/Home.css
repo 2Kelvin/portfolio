@@ -1,0 +1,104 @@
+.home {
+    height: calc(98vh - 5rem);
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.home h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0.2rem;
+}
+
+.home code {
+    font-size: 0.9rem;
+    opacity: 0.5;
+    margin: 0;
+    color: #60C0BA;
+}
+
+.home code .brackets {
+    opacity: 1;
+}
+
+.home p {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 600px) {
+    .home {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home {
+        padding: 0 1.2rem;
+    }
+
+    .home h1 {
+        font-size: 3.5rem;
+    }
+
+    .home p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .home {
+        padding: 0 5rem;
+    }
+
+    .home h1 {
+        font-size: 4rem;
+    }
+
+    .home p {
+        font-size: 3rem;
+    }
+
+    .home code {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .home {
+        padding: 0 12rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .home {
+        padding: 0 15rem;
+    }
+}
+
+@media screen and (min-width: 1356px) {
+    .home {
+        padding: 0 18rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .home {
+        padding: 0 22rem;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .home {
+        padding: 0 26rem;
+    }
+}

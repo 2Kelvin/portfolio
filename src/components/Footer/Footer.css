@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+small {
+    display: block;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+}
+
+small a,
+small a:visited {
+    text-decoration: none;
+}

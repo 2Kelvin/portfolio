@@ -1,0 +1,104 @@
+.skillsContainer {
+    min-height: 98vh;
+    display: grid;
+    place-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.skillsContainer a,
+.skillsContainer a:visited {
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: orange;
+}
+
+.progLang {
+    color: var(--myGreen);
+}
+
+.skillsContainer .alxList,
+.skillsContainer .myList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.2rem;
+}
+
+.skillsContainer .alxList li,
+.skillsContainer .myList li {
+    display: flex;
+    align-items: center;
+    color: var(--myGreen);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.skillsContainer .alxList li .plus,
+.skillsContainer .myList li .plus {
+    color: var(--myGreen);
+    margin-right: 0.3rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 1000px) {
+    .skillsContainer {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .skillsContainer {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .skillsContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1363px) {
+    .skillsContainer {
+        width: 69%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .skillsContainer {
+        width: 64%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .skillsContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1637px) {
+    .skillsContainer {
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .skillsContainer {
+        width: 53%;
+    }
+}
+
+@media screen and (min-width: 1791px) {
+    .skillsContainer {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1890px) {
+    .skillsContainer {
+        width: 48%;
+    }
+}

@@ -1,0 +1,103 @@
+.projectCard {
+    border: 1px solid rgba(64, 254, 149, 0.1);
+    border-radius: 5px;
+    padding-top: 1.2rem;
+    background-color: #101010;
+}
+
+.projectCard code {
+    font-size: 0.8rem;
+}
+
+.projectCard .appHeadingDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0.7rem;
+}
+
+.projectCard .appHeadingDiv h3 {
+    font-size: 1.2rem;
+}
+
+.projectCard .topOfCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.7rem;
+}
+
+.externalAppLink {
+    height: 1rem;
+    width: 1rem;
+}
+
+.externalAppLink:hover {
+    color: var(--myGreen);
+}
+
+.projectCard a,
+.projectCard a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projectCard .appHeadingDiv a .githubIcon {
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.projectCard .appHeadingDiv a .githubIcon:hover {
+    color: purple;
+}
+
+.projectCard .appDescription {
+    margin: 0 0.7rem;
+}
+
+.projectCard .appLanguages {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(64, 254, 149, 0.1);
+    height: 2.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0.7rem;
+    background-color: #141414;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.projectCard .appLanguages .langSubdiv {
+    display: flex;
+    align-items: center;
+}
+
+.projectCard .appLanguages code {
+    border: 1px solid rgba(64, 254, 149, 0.6);
+    border-radius: 5px;
+    padding: 0.2rem 0.4rem;
+    margin: 0;
+    opacity: 0.8;
+    width: fit-content;
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 768px) {
+    .projectCard {
+        position: relative;
+    }
+
+    .projectCard .appLanguages {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .projectCard .appLanguages code {
+        margin-right: 0.7rem;
+    }
+}

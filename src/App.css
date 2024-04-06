@@ -1,0 +1,11 @@
+.App {
+    padding: 0 0.4rem;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 600px) {
+    .App {
+        padding: 0 1rem;
+    }
+}

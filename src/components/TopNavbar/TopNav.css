@@ -1,0 +1,32 @@
+.topnav {
+    min-height: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.topLinksContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.topnav a,
+.topnav a:visited {
+    text-decoration: none;
+    color: var(--myGreen);
+}
+
+.topnav code {
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 1000px) {
+    .topnav code {
+        font-size: 1rem;
+    }
+}

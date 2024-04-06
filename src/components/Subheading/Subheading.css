@@ -1,0 +1,31 @@
+.webSubheading {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 1rem;
+    width: fit-content;
+}
+
+.webSubheading hr {
+    width: 8rem;
+    margin: 0;
+    margin-right: 1rem;
+    height: 1px;
+    background-color: var(--myGreen);
+    border: none;
+}
+
+.webSubheading h2 {
+    color: var(--myGreen);
+    cursor: pointer;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.1rem;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 800px) {
+    .webSubheading h2 {
+        font-size: 1.2rem;
+    }
+}

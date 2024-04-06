@@ -1,0 +1,80 @@
+.socials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.socials a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials .socialIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.socials .github {
+    height: 3.9rem;
+    width: 3.9rem;
+}
+
+.socials .linkedIn:hover {
+    color: #126bc4;
+}
+
+.socials .github:hover {
+    color: #4078c0;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 600px) {
+    .socials .socialIcon {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .socials .github {
+        height: 5.3rem;
+        width: 5.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .socials {
+        width: 40%;
+    }
+
+    .socials .socialIcon {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .socials .github {
+        height: 6rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .socials {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .socials {
+        width: 40%;
+    }
+}

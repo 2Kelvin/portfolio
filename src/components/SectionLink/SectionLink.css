@@ -1,0 +1,53 @@
+.eachSectionLink {
+    display: flex;
+    align-items: center;
+}
+
+.eachSectionLink p {
+    color: white;
+    cursor: pointer;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.85rem;
+}
+
+.eachSectionLink a,
+.eachSectionLink a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.eachSectionLink a p:hover,
+.eachSectionLink a p:active {
+    color: var(--myGreen);
+}
+
+.eachSectionLink hr {
+    width: 1.5rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 600px) {
+    .eachSectionLink hr {
+        width: 3rem;
+        margin-right: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .eachSectionLink hr {
+        width: 5rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .eachSectionLink p {
+        font-size: 0.95rem;
+    }
+}

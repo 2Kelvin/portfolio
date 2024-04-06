@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ddd;
+  font-size: 15px;
+  background-color: var(--mainBg);
+  font-family: "Poppins", sans-serif;
+}
+
+code {
+  font-family: "JetBrains Mono", monospace;
+  color: var(--myGreen);
+}
+
+:root {
+  --mainBg: #101111;
+  --myGreen: #40fe95;
+  --greyText: #757575;
+  /* new */
+  --thisBlueBg: #0C1C31;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.brackets {
+  color: yellowgreen;
+  opacity: 1;
+  font-weight: 500;
+}
