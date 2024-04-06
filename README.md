@@ -1,3 +1,3 @@
-# official-portfolio
+# Portfolio
 
 My software engineering portfolio
