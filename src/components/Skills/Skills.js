@@ -19,7 +19,7 @@ export default function Skills() {
             <li> <BsPlus className='plus' /> MySQL</li>
             <li> <BsPlus className='plus' /> Express</li>
             <li> <BsPlus className='plus' /> Git</li>
-            <li> <BsPlus className='plus' /> React Native</li>
+            <li> <BsPlus className='plus' /> Kotlin</li>
             <li> <BsPlus className='plus' /> Linux</li>
             <li> <BsPlus className='plus' /> Figma</li>
             </ul>
